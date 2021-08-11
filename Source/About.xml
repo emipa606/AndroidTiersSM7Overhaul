@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Android Tiers SM7 Overhaul</name>
+  <author>joe_the_tech</author>
+  <packageId>joethetech.sm7overhaul</packageId>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <loadAfter>
+    <li>Atlas.AndroidTiers</li>
+  </loadAfter>
+  <description>
+  version 1.3
+  
+  &lt;size=20&gt;Description&lt;/size&gt;
+This mod is an attempt to add additional function to the SM7 Battle Mechanoid introduced in aRandomKiwi's Android Tiers++ mod and continued in Android Tiers.
+  
+It currently has 2 main functions:
+  - Allow most android upgrades on SM7 Battle Mechanoids
+  - Add additional equipment options for SM7 Battle Mechanoids
+
+  &lt;size=20&gt;Upgrades&lt;/size&gt;
+Marketing Material:
+&lt;i&gt;"At this time, all physical upgrades may be installed on SM7 Battle Mechanoids the same as they would any other android. This includes advanced upgrades like cybernetic limbs and archotech internals. In addition to the physical upgrades, the SM7 Battle Mechanoid's artificial brain also supports installing the Soldier Upgrade to enhance their internal targeting computer."&lt;/i&gt;
+
+  &lt;size=20&gt;SM7 Combat Shield System&lt;/size&gt;
+Marketing Material:
+&lt;i&gt;"A new and powerful combat shield system has been made available for our users to construct at their Androids Parts Workbench. This system vastly increases the SM7 Battle Mechanoid's defensive capacity, able to withstand sustained fire from small arms, automatic weapons, and even large explosions. Please be aware that this does not make them invincible, nor does it prevent damage from close quarters combat or from a heavy prolonged engagement, but it will dramatically increase their combat potential and may even make them impervious to small incursions."&lt;/i&gt;
+
+ &lt;size=20&gt;20mm Rotary Cannon&lt;/size&gt;
+Marketing Material:
+&lt;i&gt;"The very pinnacle of automatic weapons technology. Though seen as low-tech and quaint by the energy weapon community, the SM7 Mounted 20mm Rotary Autocannon delivers sustained, high-velocity death at an affordable price. Once your Battle Mechanoid gets a bead on its target with this, there's a very good chance that neither the target or anything in its immediate vicinity is walking away. Designed to replace an entire squad, this weapon is also capable of delivering suppressive fire."&lt;/i&gt;
+  
+All parts added in this mod require the SM7 battle surrogate series research to construct.
+  </description>
+</ModMetaData>

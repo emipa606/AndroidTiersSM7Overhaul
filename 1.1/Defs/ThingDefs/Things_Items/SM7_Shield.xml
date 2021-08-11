@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>SM7_Shield</defName>
+    <label>SM7 Shield System</label>
+    <description>This upgrade for the SM7 Battle Mechanoid integrates a powerful energy shield capable of stopping incoming fire while allowing it to fire from within. However, the shield is not effective against melee attacks or those fired at point blank range.</description>
+    <thingClass>SM7.SM7_Shield</thingClass>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Apparel/SM7_Shield</texPath>
+      <drawSize>1.5</drawSize>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <Mass>5</Mass>
+      <EnergyShieldRechargeRate>2</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
+      <WorkToMake>30000</WorkToMake>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompEquippable</compClass>
+      </li>
+      <li>
+        <compClass>MOARANDROIDS.CompOversizedWeapon</compClass>
+      </li>
+    </comps>
+    <tickerType>Normal</tickerType>
+    <costList>
+      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentIndustrial>10</ComponentIndustrial>
+      <Plasteel>35</Plasteel>
+      <Steel>50</Steel>
+    </costList>
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <workAmount>18500</workAmount>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+        <Intellectual>10</Intellectual>
+      </skillRequirements>
+      <researchPrerequisite>ATPP_ResearchSM7</researchPrerequisite>
+      <recipeUsers>
+        <li>AndroidPartsTable</li>
+      </recipeUsers>
+    </recipeMaker>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <apparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.65,0.65,0.65,1)</only>
+        </li>
+        <li>
+          <weight>6</weight>
+          <min>RGBA(0.3,0.3,0.3,1)</min>
+          <max>RGBA(0.5,0.5,0.5,1)</max>
+        </li>
+        <li>
+          <weight>10</weight>
+          <only>RGBA(0.9,0.9,0.9,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>

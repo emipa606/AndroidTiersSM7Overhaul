@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <CombatExtended.AmmoCategoryDef>
+    <defName>DepletedUranium</defName>
+    <label>depleted uranium</label>
+    <labelShort>DU</labelShort>
+    <description>A lightweight steel casing cast around a depleted uranium core, this round offers exceptional damage and armor penetration.</description>
+  </CombatExtended.AmmoCategoryDef>
+</Defs>

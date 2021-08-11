@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Android Tiers SM7 Overhaul (Continued)</name>
+  <packageId>Mlie.AndroidTiersSM7Overhaul</packageId>
+  <author>joe_the_tech</author>
+  <url>https://github.com/emipa606/AndroidTiersSM7Overhaul</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>Humanoid Alien Races 2.0</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/RimWorld-CCL-Reborn/AlienRaces</downloadUrl>
+    </li>
+    <li>
+      <packageId>CarnySenpai.EnableOversizedWeapons</packageId>
+      <displayName>Enable Oversized Weapons</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2543371889</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Atlas.AndroidTiers</packageId>
+      <displayName>Android tiers</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1386412863</steamWorkshopUrl>
+      <downloadUrl>https://github.com/Atla55/Android-Tiers-Core</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>Atlas.AndroidTiers</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of joe_the_techs mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=1948536101
+
+- Included the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2044595677]CE patch[/url] 
+
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/AndroidTiersSM7Overhaul][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/p7Fv1Z6.gif[/img]
+
+  version 1.3
+  
+Description
+This mod is an attempt to add additional function to the SM7 Battle Mechanoid introduced in aRandomKiwi&apos;s Android Tiers++ mod and continued in the Android Tiers mod.
+  
+It currently has 2 main functions:
+  - Allow most android upgrades on SM7 Battle Mechanoids
+  - Add additional equipment options for SM7 Battle Mechanoids
+
+Upgrades
+Marketing Material:
+&quot;At this time, all physical upgrades may be installed on SM7 Battle Mechanoids the same as they would any other android. This includes advanced upgrades like cybernetic limbs and archotech internals. In addition to the physical upgrades, the SM7 Battle Mechanoid&apos;s artificial brain also supports installing the Soldier Upgrade to enhance their internal targeting computer.&quot;
+  
+SM7 Combat Shield System
+Marketing Material:
+&quot;A new and powerful combat shield system has been made available for our users to construct at their Androids Parts Workbench. This system vastly increases the SM7 Battle Mechanoid&apos;s defensive capacity, able to withstand sustained fire from small arms, automatic weapons, and even large explosions. Please be aware that this does not make them invincible, nor does it prevent damage from close quarters combat or from a heavy prolonged engagement, but it will dramatically increase their combat potential and may even make them impervious to small incursions.&quot;
+
+20mm Rotary Cannon
+Marketing Material:
+&quot;The very pinnacle of automatic weapons technology. Though seen as low-tech and quaint by the energy weapon community, the SM7 Mounted 20mm Rotary Cannon delivers sustained, high-velocity death at an affordable price. Once your Battle Mechanoid gets a bead on its target with this, there&apos;s a very good chance that neither the target or anything in its immediate vicinity is walking away. Designed to replace an entire squad, this weapon is also capable of delivering suppressive fire.&quot;
+
+Now compatible with Combat Extended, including new ammo types: 20x102mm High Explosive, Armor Piercing, and Depleted Uranium.
+
+The Combat Extended patch is a separate mod. [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2044595677]Please download it here.[/url]
+
+All parts added in this mod require the SM7 battle surrogate series research to construct.
+
+Legal:
+This mod uses heavily modified code from dninemfive&apos;s Advanced Shield Belts mod. Show them some support here: https://steamcommunity.com/sharedfiles/filedetails/?id=1417354001
+
+This mod uses modified textures from the Android Tiers mod to mesh with existing art from that mod.
+
+[url=https://ko-fi.com/joe_the_tech][img]https://i.imgur.com/q1Uvqu1.png[/img][/url]
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
+</ModMetaData>
+

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>ATPP_Make_SM7MechRotaryCannon</defName>
+    <label>make a Rotary Cannon</label>
+    <description>Make a Rotary Cannon weapon.</description>
+    <jobString>Make a Rotary Cannon.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5.0</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <MechRotaryCannon>1</MechRotaryCannon>
+    </products>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>25500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Intellectual</workSkill>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+      <Intellectual>10</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>ATPP_ResearchSM7</researchPrerequisite>
+    <recipeUsers>
+      <li>AndroidPartsTable</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>Make_MechKnife</defName>
+    <label>make a Mech Blade</label>
+    <description>Make a Mech Blade weapon.</description>
+    <jobString>Make a Mech Blade.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <products>
+      <MeleeWeapon_MechKnife>1</MeleeWeapon_MechKnife>
+    </products>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>15000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>ATPP_ResearchSM7</researchPrerequisite>
+    <recipeUsers>
+      <li>AndroidPartsTable</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
