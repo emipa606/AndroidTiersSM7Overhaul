@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -136,6 +137,15 @@ namespace SM7
         // Token: 0x0600000B RID: 11 RVA: 0x00002272 File Offset: 0x00000472
         public override IEnumerable<Gizmo> GetWornGizmos()
         {
+            var baseGizmos = base.GetWornGizmos();
+            if (baseGizmos.Any())
+            {
+                foreach (var baseGizmo in baseGizmos)
+                {
+                    yield return baseGizmo;
+                }
+            }
+
             if (Find.Selector.SingleSelectedThing != Wearer)
             {
                 yield break;
@@ -243,7 +253,7 @@ namespace SM7
             var vector = Wearer.TrueCenter() + (impactAngleVect.RotatedBy(180f) * 0.5f);
             var num = Mathf.Min(10f, 2f + (dinfo.Amount / 10f));
             FleckMaker.Static(vector, Wearer.Map, FleckDefOf.ExplosionFlash, num);
-            var num2 = (int) num;
+            var num2 = (int)num;
             for (var i = 0; i < num2; i++)
             {
                 FleckMaker.ThrowDustPuff(vector, Wearer.Map, Rand.Range(0.8f, 1.2f));

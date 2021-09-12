@@ -1,4 +1,7 @@
 # Changelog for AndroidTiersSM7Overhaul
 
+1.0.1.0 - Fixed missing gizmos
+
+
 1.0.0.0 - First publish
 
