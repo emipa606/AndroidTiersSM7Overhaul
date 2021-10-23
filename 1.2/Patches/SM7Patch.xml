@@ -15,7 +15,7 @@
       </li>
     </operations>
   </Operation>
-    <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
       <!--Allows installing Android Parts onto M8 Mechs-->
@@ -142,7 +142,7 @@
       </li>
     </operations>
   </Operation>
-    <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationAdd">
         <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M8Mech"]/recipes</xpath>

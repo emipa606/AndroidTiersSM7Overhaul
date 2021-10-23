@@ -1,5 +1,8 @@
 # Changelog for AndroidTiersSM7Overhaul
 
+1.0.2.0 - Adds the M8 to the overhaul, via original author Joe the Tech
+
+
 1.0.1.0 - Fixed missing gizmos
 
 
