@@ -1,5 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Patch>
+  <Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Save Our Ship 2</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<operations>
+			<!--Adds space exposure immunity to M7 Mech-->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M7Mech"]/tradeTags</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M7Mech"]</xpath>
+							<value>
+								<tradeTags />
+							</value>
+					</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M7Mech"]/tradeTags</xpath>
+				<value>
+					<li>AnimalInsectSpace</li>
+				</value>
+			</li>
+			<!--Adds space exposure immunity to M8 Mech-->
+			<li Class="PatchOperationConditional">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M8Mech"]/tradeTags</xpath>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M8Mech"]</xpath>
+							<value>
+								<tradeTags />
+							</value>
+					</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+			<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M8Mech"]/tradeTags</xpath>
+				<value>
+					<li>AnimalInsectSpace</li>
+				</value>
+			</li>
+		</operations>
+		</match>
+	</Operation>
   <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
@@ -15,7 +56,7 @@
       </li>
     </operations>
   </Operation>
-    <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence">
     <success>Always</success>
     <operations>
       <!--Allows installing Android Parts onto M8 Mechs-->
@@ -142,7 +183,7 @@
       </li>
     </operations>
   </Operation>
-    <Operation Class="PatchOperationSequence">
+  <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationAdd">
         <xpath>/Defs/AlienRace.ThingDef_AlienRace[defName = "M8Mech"]/recipes</xpath>
