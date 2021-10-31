@@ -1,5 +1,8 @@
 # Changelog for AndroidTiersSM7Overhaul
 
+1.0.3.0 - Will now be immune to vaccum exposure in SOS2, thanks to the original author Joe the Tech
+
+
 1.0.2.0 - Adds the M8 to the overhaul, via original author Joe the Tech
 
 
