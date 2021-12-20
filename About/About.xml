@@ -31,8 +31,8 @@
   <loadAfter>
     <li>brrainz.harmony</li>
     <li>erdelf.HumanoidAlienRaces</li>
-    <li>Atlas.AndroidTiers</li>
     <li>CETeam.CombatExtended</li>
+    <li>Atlas.AndroidTiers</li>
   </loadAfter>
   <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of joe_the_techs mod
